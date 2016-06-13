@@ -1,0 +1,17 @@
+{
+  "name": "reactNative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "15.0.2",
+    "react-native": "0.26.1",
+    "react-native-camera": "github:lwansbrough/react-native-camera",
+    "react-native-facebook-login": "https://github.com/magus/react-native-facebook-login.git",
+    "react-native-scrollable-tab-view": "^0.4.3",
+    "react-native-tabbar": "^0.3.6",
+    "react-native-vector-icons": "^2.0.2"
+  }
+}
