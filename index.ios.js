@@ -7,5 +7,5 @@
 import { AppRegistry } from 'react-native'
 import App from './src/app/App'
 
-// AppRegistry.registerComponent('reactNative', () => App);
-AppRegistry.registerComponent('ReactNativeSwiftDemo', () => App);
+AppRegistry.registerComponent('reactNative', () => App);
+// AppRegistry.registerComponent('ReactNativeSwiftDemo', () => App);

@@ -14,6 +14,7 @@ import Tabbar, { Tab, RawContent, IconWithBar, glypyMapMaker } from 'react-nativ
 import Home from '../home/Home'
 import CameraHome from '../camera/CameraHome'
 import Weather from '../weather/Weather'
+import VideoPlayer from '../video/VideoPlayer'
 
 // create glypy icons
 const glypy = glypyMapMaker({
@@ -53,9 +54,8 @@ class App extends Component {
         <Tab name="settings">
           <IconWithBar label="Play" type={glypy.Play} from={'icomoon'}/>
           <RawContent>
-            <View style={{ flex: 1, backgroundColor: 'white', alignItems: 'center', justifyContent:'center' }}>
-              <Text onPress={()=>console.log('settings')}>Settings</Text>
-            </View>
+            <VideoPlayer url="http://www.w3schools.com/html/mov_bbb.mp4">
+            </VideoPlayer>
           </RawContent>
         </Tab>
       </Tabbar>
